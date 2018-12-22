@@ -1,0 +1,5 @@
+#!MC 1410
+$!ALTERDATA 
+  EQUATION = '{P<sub>w</sub>/P<sub><math>%</math></sub>} = {P}/0.1475'
+$!ALTERDATA 
+  EQUATION = '{time,tU<sub><math>%</math></sub>/l} = {Solution Time}*0.0025'

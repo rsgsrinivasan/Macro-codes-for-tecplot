@@ -1,0 +1,7 @@
+#!MC 1410
+$!ALTERDATA 
+  EQUATION = '{tu/L} = 0.0025*{Solution Time}'
+$!ALTERDATA 
+  EQUATION = '{Dim_P} = 1.2205*2.2*330*2.2*330*{P}'
+$!ALTERDATA 
+  EQUATION = '{Dim_Pfluc} = 1.2205*2.2*330*2.2*330*{P_fluc}'

@@ -1,0 +1,7 @@
+#!MC 1410
+$!ALTERDATA 
+  EQUATION = '{mumean} = sqrt({Tmean})*sqrt({Tmean})*sqrt({Tmean})*((1.0+(110/287))/({Tmean}+(110/287)))'
+$!ALTERDATA 
+  EQUATION = '{Cf} = (2.0*{mumean}*ddy({Umean}))/({RHOmean})'
+$!ALTERDATA 
+  EQUATION = '{X/L} = ({X}-40)/95'

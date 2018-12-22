@@ -1,0 +1,15 @@
+#!MC 1410
+$!ALTERDATA 
+  EQUATION = '{DRDX} = ddx({RHO})'
+$!ALTERDATA 
+  EQUATION = '{D2RD2X} = ddx({DRDX})'
+$!ALTERDATA 
+  EQUATION = '{DRDY} = ddy({RHO})'
+$!ALTERDATA 
+  EQUATION = '{D2RD2Y} = ddy({DRDY})'
+$!ALTERDATA 
+  EQUATION = '{Sch} = {D2RD2X} + {D2RD2Y}'
+$!ALTERDATA 
+  EQUATION = '{DPDX} = ddx({P})'
+$!ALTERDATA 
+  EQUATION = '{DPDY} = ddy({P})'

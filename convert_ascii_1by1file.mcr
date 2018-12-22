@@ -1,0 +1,29 @@
+#!MC 1410
+
+$!FILECONFIG
+LOADONDEMAND
+{
+	UNLOADSTRATEGY = MINIMIZEMEMORYUSE
+}
+
+$!VarSet |MFBD| = 'C:\Program Files\Tecplot\Tecplot 360 EX 2014 R2'
+$!VARSET |ILOOP| =1000
+$!Loop 695
+	$!READDATASET  '"G:\intake_3D_3Million_results\intake_3d_3Million_wo_bleed\nodefile_|ILOOP|.plt" '
+	  READDATAOPTION = NEW
+	  RESETSTYLE = YES
+	  VARLOADMODE = BYNAME
+	  ASSIGNSTRANDIDS = YES
+	$!WRITEDATASET  "G:\intake_3D_3Million_results\intake_3d_3Million_wo_bleed_ASCII\nodefile_|ILOOP|.dat"
+	  INCLUDETEXT = NO
+	  INCLUDEGEOM = NO
+	  INCLUDEDATASHARELINKAGE = YES
+	  VARPOSITIONLIST =  [1-11]
+	  BINARY = NO
+	  USEPOINTFORMAT = YES
+	  PRECISION = 9
+	  TECPLOTVERSIONTOWRITE = TECPLOTCURRENT
+	$!VARSET |ILOOP| += 1000
+$!EndLoop
+
+$!RemoveVar |MFBD|

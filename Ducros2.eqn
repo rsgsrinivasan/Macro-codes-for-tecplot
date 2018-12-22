@@ -1,0 +1,21 @@
+#!MC 1410
+$!ALTERDATA 
+  EQUATION = '{DUDX}  = ddx({U})'
+$!ALTERDATA 
+  EQUATION = '{DVDY}  = ddy({V})'
+$!ALTERDATA 
+  EQUATION = '{DWDZ} = ddz({W})'
+$!ALTERDATA 
+  EQUATION = '{DWDY} = ddy({W})'
+$!ALTERDATA 
+  EQUATION = '{DVDZ}  = ddz({V})'
+$!ALTERDATA 
+  EQUATION = '{DWDX} = ddx({W})'
+$!ALTERDATA 
+  EQUATION = '{DUDZ} = ddz({U})'
+$!ALTERDATA 
+  EQUATION = '{DVDX} = ddx({V})'
+$!ALTERDATA 
+  EQUATION = '{DUDY} = ddy({U}) '
+$!ALTERDATA 
+  EQUATION = '{ND} = ( ({DUDX} + {DVDY} + {DWDZ})**2)/( (({DUDX} + {DVDY} + {DWDZ})**2)+ (({DWDY}-{DVDZ})**2) +  (({DWDX}-{DUDZ})**2) +(({DVDX}-{DUDY})**2) + 10e-30)'

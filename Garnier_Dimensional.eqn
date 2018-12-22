@@ -1,0 +1,9 @@
+#!MC 1410
+$!ALTERDATA 
+  EQUATION = '{X} = {X} - 0.25'
+$!ALTERDATA 
+  EQUATION = '{X} = {X}*100'
+$!ALTERDATA 
+  EQUATION = '{Y} = {Y}*100'
+$!ALTERDATA 
+  EQUATION = '{Z} = {Z}*100'

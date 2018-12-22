@@ -1,0 +1,5 @@
+#!MC 1410
+$!ALTERDATA 
+  EQUATION = '{Cf} = (2.0*{mu}*1.81*0.01*ddy({U}))/(1.2205*{RHO}*2.2*330)'
+$!ALTERDATA 
+  EQUATION = '{X/L} = ({X}-40)/95'

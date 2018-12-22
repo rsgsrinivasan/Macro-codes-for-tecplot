@@ -1,0 +1,7 @@
+#!MC 1410
+$!ALTERDATA 
+  EQUATION = '{X/L} =({X}-762)/(1270-762)'
+$!ALTERDATA 
+  EQUATION = '{Y/L} =({Y}/(1270-762))-0.2'
+$!ALTERDATA 
+  EQUATION = '{Z/L} =({Z})/(1270-762)'

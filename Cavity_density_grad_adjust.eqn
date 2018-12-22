@@ -1,0 +1,3 @@
+#!MC 1410
+$!ALTERDATA 
+  EQUATION = '{Den_grad} = IF( {Y}<115 && {X} < 740, 0.00001, {Y Density Gradient})'

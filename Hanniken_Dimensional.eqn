@@ -1,0 +1,9 @@
+#!MC 1410
+$!ALTERDATA 
+  EQUATION = '{X} = {X}-0.659219'
+$!ALTERDATA 
+  EQUATION = '{X} = {X} * 60'
+$!ALTERDATA 
+  EQUATION = '{Y} = {Y} * 60'
+$!ALTERDATA 
+  EQUATION = '{Z} = {Z} * 60'

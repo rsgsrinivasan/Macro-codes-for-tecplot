@@ -1,0 +1,21 @@
+#!MC 1410
+$!ALTERDATA 
+  EQUATION = '{theta} = IF( {Y}>0 && {Z}>0, atan(abs({Z})/(abs({Y})+0.000001)), 0)'
+$!ALTERDATA 
+  EQUATION = '{theta} = IF( {Y}<0 && {Z}>0, 3.14159 - atan(abs({Z})/(abs({Y})+0.000001)), {theta})'
+$!ALTERDATA 
+  EQUATION = '{theta} = IF( {Y}<0 && {Z}<0, 3.14159 + atan(abs({Z})/(abs({Y})+0.000001)), {theta})'
+$!ALTERDATA 
+  EQUATION = '{theta} = IF( {Y}>0 && {Z}<0, 2*3.14159 - atan(abs({Z})/(abs({Y})+0.000001)), {theta})'
+$!ALTERDATA 
+  EQUATION = '{theta} = IF( {Y}>0.0 && {Z}==0.0, 0.0, {theta})'
+$!ALTERDATA 
+  EQUATION = '{theta} = IF( {Y}==0.0 && {Z}>0.0, 1.570796 , {theta})'
+$!ALTERDATA 
+  EQUATION = '{theta} = IF( {Y}<0.0 && {Z}==0, 3.14159 , {theta})'
+$!ALTERDATA 
+  EQUATION = '{theta} = IF( {Y}==0.0 && {Z}<0.0, 1.570796 + 3.14159, {theta})'
+$!ALTERDATA 
+  EQUATION = '{Y} = {theta}'
+$!ALTERDATA 
+  EQUATION = '{Z} = 0.0'

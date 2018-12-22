@@ -1,0 +1,3 @@
+#!MC 1410
+$!ALTERDATA 
+  EQUATION = '{Mach} = sqrt(({RHO}*{T})/(1.4*{P}))'

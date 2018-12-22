@@ -1,0 +1,7 @@
+#!MC 1410
+$!ALTERDATA 
+  EQUATION = '{X} = ({X}-700)/2540'
+$!ALTERDATA 
+  EQUATION = '{Y} = {Y}/2540'
+$!ALTERDATA 
+  EQUATION = '{Z} = {Z}/2540'

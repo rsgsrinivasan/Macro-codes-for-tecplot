@@ -1,0 +1,9 @@
+#!MC 1410
+$!ALTERDATA 
+  EQUATION = '{Den_grad} = IF( {Y}>34.6 && {X} < 60, 0.00001, {Density Gradient Magnitude})'
+$!ALTERDATA 
+  EQUATION = '{Den_grad} = IF( {Y}>36.6 && {X} < 63.5, 0.00001, {Den_grad})'
+$!ALTERDATA 
+  EQUATION = '{Den_grad} = IF( {X} < 40.15, 0.00001, {Den_grad})'
+$!ALTERDATA 
+  EQUATION = '{Den_grad} = IF( {Y} < 18.3 && {X} < 41.9, 0.00001, {Den_grad})'

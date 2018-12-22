@@ -1,0 +1,7 @@
+#!MC 1410
+$!ALTERDATA 
+  EQUATION = '{Mach} = ({U}*{U}+{V}*{V}+{W}*{W})/(sqrt(1.4*{P}/{RHO}))'
+$!ALTERDATA 
+  EQUATION = '{Stagnation Pressure} = ({P})*(1+0.2*{Mach}*{Mach})**3.5'
+$!ALTERDATA 
+  EQUATION = '{Stagnation Temperature} = ({T})*(1+0.2*{Mach}*{Mach})'

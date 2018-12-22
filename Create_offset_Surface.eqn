@@ -1,0 +1,7 @@
+#!MC 1410
+$!ALTERDATA  [2]
+  EQUATION = '{X} = {X}-0.001*{X Grid K Unit Normal} '
+$!ALTERDATA  [2]
+  EQUATION = '{Y} = {Y}-0.001*{Y Grid K Unit Normal} '
+$!ALTERDATA  [2]
+  EQUATION = '{Z} = {Z}-0.001*{Z Grid K Unit Normal} '

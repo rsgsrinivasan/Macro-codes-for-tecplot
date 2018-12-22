@@ -1,0 +1,3 @@
+#!MC 1410
+$!ALTERDATA 
+  EQUATION = '{<math>Q</math>.u} = ddx({Umean})+ddy({Vmean})+ddz({Wmean})'
